@@ -1,0 +1,36 @@
+/*
+
+
+
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+
+*/
+
+.ywig-event-widget-row{
+	position:relative;
+}
+.ywig-event-widget-col-1-overlay{
+	position: absolute;
+    background: rgba(255,254,239,0);
+    opacity:0;
+    height: 100%;
+    width: 100%;
+    padding: 5% 10%;
+    transition: all 0.3s ease;
+}
+
+.ywig-event-widget-col-1-overlay p{
+	font-size:1em;
+}
+
+.ywig-event-widget-col-1-overlay h4{
+	font-size:2em;
+}
+
+#ywig-event-widget-col-1:hover .ywig-event-widget-col-1-overlay{
+	    background: rgba(255,254,239,0.95);
+	    opacity:1;
+} ;
+
+
